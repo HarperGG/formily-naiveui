@@ -1,18 +1,7 @@
 $formily-prefix: 'formily-naive';
 $namespace: 'el';
 @import './naive.scss';
-
-@mixin active {
-  border-color: $--color-primary;
-  outline: 0;
-  border-right-width: $--border-width-base !important;
-}
-
-@mixin hover {
-  border-color: $--border-color-hover;
-  outline: 0;
-  border-right-width: $--border-width-base !important;
-}
+@import './mixin.scss';
 
 $--font-size-extra-small: var(--el-font-size-extra-small);
 $--font-size-extra-large: var(--el-font-size-extra-large);

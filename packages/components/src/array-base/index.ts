@@ -21,6 +21,7 @@ import {
   TrashOutline as RemoveIcon,
   ChevronUp as ArrowUp,
   ChevronDown as ArrowDown,
+  MoveSharp as ArrowMove,
 } from '@vicons/ionicons5'
 import { stylePrefix } from '../__builtins__/configs'
 import { composeExport } from '../__builtins__/shared'
@@ -182,7 +183,7 @@ const ArrayBaseItem = defineComponent({
 const ArrayBaseSortHandle = defineComponent({
   name: 'ArrayBaseSortHandle',
   props: ['index'],
-  setup(props, { attrs }) {
+  setup(_, { attrs }) {
     const array = useArray()
     const prefixCls = `${stylePrefix}-array-base`
 
@@ -191,19 +192,12 @@ const ArrayBaseSortHandle = defineComponent({
       if (array.field.value?.pattern !== 'editable') return null
 
       return h(
-        NButton,
+        NIcon,
         {
-          ...{
-            class: `${prefixCls}-remove`,
-            text: true,
-            size: 'small',
-            ...attrs,
-          },
+          ...attrs,
           class: [`${prefixCls}-sort-handle`].concat(attrs.class as any),
         },
-        {
-          icon: () => h(NIcon, null, { default: () => [h(AddIcon)] }),
-        }
+        { default: () => [h(ArrowMove)] }
       )
     }
   },
@@ -283,14 +277,10 @@ const ArrayBaseRemove = defineComponent<
     return () => {
       if (base?.field.value.pattern !== 'editable') return null
       return h(
-        NButton,
+        NIcon,
         {
-          ...{
-            class: `${prefixCls}-remove`,
-            text: true,
-            size: 'small',
-            ...attrs,
-          },
+          ...attrs,
+          class: [`${prefixCls}-remove`].concat(attrs.class as any),
           onClick: (e: MouseEvent) => {
             e.stopPropagation()
             if (Array.isArray(base?.keyMap)) {
@@ -305,10 +295,7 @@ const ArrayBaseRemove = defineComponent<
             }
           },
         },
-        {
-          default: () => [props.title],
-          icon: () => h(NIcon, null, { default: () => [h(RemoveIcon)] }),
-        }
+        { default: () => [h(RemoveIcon)] }
       )
     }
   },
@@ -325,14 +312,10 @@ const ArrayBaseMoveDown = defineComponent<
     return () => {
       if (base?.field.value.pattern !== 'editable') return null
       return h(
-        NButton,
+        NIcon,
         {
-          ...{
-            class: `${prefixCls}-move-down`,
-            text: true,
-            size: 'small',
-            ...attrs,
-          },
+          ...attrs,
+          class: [`${prefixCls}-sort-handle`].concat(attrs.class as any),
           onClick: (e: MouseEvent) => {
             e.stopPropagation()
             if (Array.isArray(base?.keyMap)) {
@@ -351,10 +334,7 @@ const ArrayBaseMoveDown = defineComponent<
             }
           },
         },
-        {
-          default: () => [props.title],
-          icon: () => h(NIcon, null, { default: () => [h(ArrowDown)] }),
-        }
+        { default: () => [h(ArrowDown)] }
       )
     }
   },
@@ -371,14 +351,10 @@ const ArrayBaseMoveUp = defineComponent<
     return () => {
       if (base?.field.value.pattern !== 'editable') return null
       return h(
-        NButton,
+        NIcon,
         {
-          ...{
-            class: `${prefixCls}-remove`,
-            text: true,
-            size: 'small',
-            ...attrs,
-          },
+          ...attrs,
+          class: [`${prefixCls}-sort-handle`].concat(attrs.class as any),
           onClick: (e: MouseEvent) => {
             e.stopPropagation()
             if (Array.isArray(base?.keyMap)) {
@@ -397,10 +373,7 @@ const ArrayBaseMoveUp = defineComponent<
             }
           },
         },
-        {
-          default: () => [props.title],
-          icon: () => h(NIcon, null, { default: () => [h(ArrowUp)] }),
-        }
+        { default: () => [h(ArrowUp)] }
       )
     }
   },

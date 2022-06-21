@@ -13,6 +13,10 @@ $array-table-prefix-cls: '#{$formily-prefix}-array-cards';
 
   .#{$array-table-prefix-cls}-item {
     margin-bottom: 10px !important;
+
+    &-action {
+      @include flex;
+    }
   }
 
   .#{$formily-prefix}-array-base-addition {

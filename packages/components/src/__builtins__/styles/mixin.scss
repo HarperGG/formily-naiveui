@@ -1,0 +1,17 @@
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin active {
+  border-color: $--color-primary;
+  outline: 0;
+  border-right-width: $--border-width-base !important;
+}
+
+@mixin hover {
+  border-color: $--border-color-hover;
+  outline: 0;
+  border-right-width: $--border-width-base !important;
+}
