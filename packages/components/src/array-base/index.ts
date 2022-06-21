@@ -16,9 +16,12 @@ import { ArrayField } from '@formily/core'
 import type { ButtonProps as NButtonProps } from 'naive-ui'
 import { NButton, NIcon } from 'naive-ui'
 import type { Schema } from '@formily/json-schema'
-// import { HandleDirective } from 'vue-slicksort'
-import { Delete, Rank } from '@element-plus/icons-vue'
-import { Add as AddIcon ,TrashOutline as RemoveIcon,ChevronUp as ArrowUp ,ChevronDown as ArrowDown} from '@vicons/ionicons5'
+import {
+  Add as AddIcon,
+  TrashOutline as RemoveIcon,
+  ChevronUp as ArrowUp,
+  ChevronDown as ArrowDown,
+} from '@vicons/ionicons5'
 import { stylePrefix } from '../__builtins__/configs'
 import { composeExport } from '../__builtins__/shared'
 
@@ -178,9 +181,6 @@ const ArrayBaseItem = defineComponent({
 
 const ArrayBaseSortHandle = defineComponent({
   name: 'ArrayBaseSortHandle',
-  directives: {
-    // handle: HandleDirective,
-  },
   props: ['index'],
   setup(props, { attrs }) {
     const array = useArray()
@@ -193,13 +193,17 @@ const ArrayBaseSortHandle = defineComponent({
       return h(
         NButton,
         {
-          directives: [{ name: 'handle' }],
-          size: 'small',
-          icon: Rank,
-          ...attrs,
+          ...{
+            class: `${prefixCls}-remove`,
+            text: true,
+            size: 'small',
+            ...attrs,
+          },
           class: [`${prefixCls}-sort-handle`].concat(attrs.class as any),
         },
-        {}
+        {
+          icon: () => h(NIcon, null, { default: () => [h(AddIcon)] }),
+        }
       )
     }
   },
@@ -261,7 +265,7 @@ const ArrayBaseAddition = defineComponent({
         },
         {
           default: () => [self.value.title || props.title],
-          icon: () => h(NIcon, null,{default:()=>[h(AddIcon)]}),
+          icon: () => h(NIcon, null, { default: () => [h(AddIcon)] }),
         }
       )
     }
@@ -283,7 +287,7 @@ const ArrayBaseRemove = defineComponent<
         {
           ...{
             class: `${prefixCls}-remove`,
-            text:true,
+            text: true,
             size: 'small',
             ...attrs,
           },
@@ -303,7 +307,7 @@ const ArrayBaseRemove = defineComponent<
         },
         {
           default: () => [props.title],
-          icon: () => h(NIcon, null,{default:()=>[h(RemoveIcon)]}), 
+          icon: () => h(NIcon, null, { default: () => [h(RemoveIcon)] }),
         }
       )
     }
@@ -325,7 +329,7 @@ const ArrayBaseMoveDown = defineComponent<
         {
           ...{
             class: `${prefixCls}-move-down`,
-            text:true,
+            text: true,
             size: 'small',
             ...attrs,
           },
@@ -349,7 +353,7 @@ const ArrayBaseMoveDown = defineComponent<
         },
         {
           default: () => [props.title],
-          icon: () => h(NIcon, null,{default:()=>[h(ArrowDown)]}), 
+          icon: () => h(NIcon, null, { default: () => [h(ArrowDown)] }),
         }
       )
     }
@@ -371,7 +375,7 @@ const ArrayBaseMoveUp = defineComponent<
         {
           ...{
             class: `${prefixCls}-remove`,
-            text:true,
+            text: true,
             size: 'small',
             ...attrs,
           },
@@ -395,7 +399,7 @@ const ArrayBaseMoveUp = defineComponent<
         },
         {
           default: () => [props.title],
-          icon: () => h(NIcon, null,{default:()=>[h(ArrowUp)]}), 
+          icon: () => h(NIcon, null, { default: () => [h(ArrowUp)] }),
         }
       )
     }

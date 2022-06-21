@@ -1,4 +1,4 @@
-import type { Component, DefineComponent } from 'vue'
+import type { DefineComponent } from 'vue'
 import {
   defineComponent,
   provide,
