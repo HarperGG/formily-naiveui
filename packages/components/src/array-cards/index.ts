@@ -6,7 +6,7 @@ import { observer } from '@formily/reactive-vue'
 import { ISchema } from '@formily/json-schema'
 import { stylePrefix } from '../__builtins__/configs'
 import { ArrayBase } from '../array-base'
-import { composeExport } from '../__builtins__/shared'
+import { composeExport, renderChildren } from '../__builtins__/shared'
 
 const isAdditionComponent = (schema: ISchema) => {
   return schema['x-component']?.indexOf('Addition') > -1
@@ -84,9 +84,9 @@ const ArrayCardsInner = observer(
             const extra = h(
               'span',
               {
-                style:{
+                style: {
                   display: 'flex',
-                }
+                },
               },
               {
                 default: () => [
@@ -142,9 +142,9 @@ const ArrayCardsInner = observer(
                         h(
                           NRow,
                           {
-                            style:{
+                            style: {
                               justifyContent: 'space-between',
-                            }
+                            },
                           },
                           {
                             default: () => [title, extra],
@@ -176,19 +176,10 @@ const ArrayCardsInner = observer(
           return h(
             NCard,
             {
-              class: [`${prefixCls}-item`],
-              shadow: 'never',
               ...attrs,
-              header: attrs.title || field.title,
+              class: [`${prefixCls}-item`].concat((attrs as any).class),
             },
-            {
-              default: () =>
-                h(
-                  NEmpty,
-                  { props: { description: 'No Data', imageSize: 100 } },
-                  {}
-                ),
-            }
+            renderChildren(NEmpty)
           )
         }
 

@@ -12,7 +12,7 @@ $array-table-prefix-cls: '#{$formily-prefix}-array-cards';
   }
 
   .#{$array-table-prefix-cls}-item {
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
   }
 
   .#{$formily-prefix}-array-base-addition {
