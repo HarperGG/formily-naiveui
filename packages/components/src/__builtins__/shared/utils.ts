@@ -1,4 +1,6 @@
-import { Slots, VNode, VNodeArrayChildren, renderSlot, h } from 'vue'
+import { Recordable } from './types'
+import { isArray } from '@vue/shared'
+import { Slots, VNode, VNodeArrayChildren, h, Component, VNodeChild } from 'vue'
 export function isValidElement(element) {
   return (
     isVueOptions(element) ||
@@ -35,14 +37,14 @@ export function composeExport<T0 extends {}, T1 extends {}>(
   return Object.assign(s0, s1)
 }
 
-export function renderChildren<T extends Record<string, unknown>>(
-  slots: Slots,
-  name?: string,
+export function renderChildren<T extends Recordable>(
+  component: Component,
+  name = 'default',
   props?: T,
   fallback?: () => VNodeArrayChildren
-): { [key: string]: () => VNode } {
-  if (!name) {
-    return { default: () => h(slots, props, fallback) }
+): { [key: string]: () => VNode | VNode[] } {
+  return {
+    [name]: () =>
+      isArray(component) ? component : h(component as VNode, props, fallback),
   }
-  return { [name]: () => h(slots, props, fallback) }
 }
