@@ -50,8 +50,8 @@
         </SchemaVoidField>
       </SchemaVoidField>
     </SchemaField>
-    <FormButtonGroup alignFormItem>
-      <ElButton
+    <FormButtonGroup align-form-item>
+      <NButton
         @click="
           () => {
             form.query('tab3').take((field) => {
@@ -61,8 +61,8 @@
         "
       >
         显示/隐藏最后一个Tab
-      </ElButton>
-      <ElButton
+      </NButton>
+      <NButton
         @click="
           () => {
             formCollapse.toggleActiveKey('tab2')
@@ -70,8 +70,8 @@
         "
       >
         切换第二个Tab
-      </ElButton>
-      <Submit @submit="log">提交</Submit>
+      </NButton>
+      <Submit @submit="log"> 提交 </Submit>
     </FormButtonGroup>
   </Form>
 </template>
@@ -87,7 +87,7 @@ import {
   Input,
   Form,
 } from '@formily/naive-ui'
-import { ElButton } from 'element-plus'
+import { NButton } from 'naive-ui'
 
 const { SchemaField, SchemaVoidField, SchemaStringField } = createSchemaField({
   components: {

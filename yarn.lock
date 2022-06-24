@@ -9413,10 +9413,10 @@ mute-stream@0.0.8, mute-stream@~0.0.4:
   resolved "https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.8.tgz"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
-naive-ui@^2.30.4:
-  version "2.30.4"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/naive-ui/-/naive-ui-2.30.4.tgz#8208aebfa25253148d988f102e93d25dea731b0f"
-  integrity sha1-ggiuv6JSUxSNmI8QLpPSXepzGw8=
+naive-ui@^2.30.6:
+  version "2.30.6"
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/naive-ui/-/naive-ui-2.30.6.tgz#efd23a573b283ffed7b2d8fe177e7ad3e1b9e01b"
+  integrity sha1-79I6VzsoP/7Xstj+F3560+G54Bs=
   dependencies:
     "@css-render/plugin-bem" "^0.15.10"
     "@css-render/vue3-ssr" "^0.15.10"
@@ -9434,7 +9434,7 @@ naive-ui@^2.30.4:
     treemate "^0.3.11"
     vdirs "^0.1.8"
     vooks "^0.2.12"
-    vueuc "^0.4.44"
+    vueuc "^0.4.45"
 
 nan@^2.12.1:
   version "2.15.0"
@@ -13531,10 +13531,10 @@ vuepress@^2.0.0-beta.38:
   dependencies:
     vuepress-vite "2.0.0-beta.38"
 
-vueuc@^0.4.44:
-  version "0.4.44"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/vueuc/-/vueuc-0.4.44.tgz#2fc69c90f06f0cca03d47855bf65ecf3a283e4ef"
-  integrity sha1-L8ackPBvDMoD1HhVv2Xs86KD5O8=
+vueuc@^0.4.45:
+  version "0.4.45"
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/vueuc/-/vueuc-0.4.45.tgz#347cc5619157b77d5d18a096ebceb1b54dd5f085"
+  integrity sha1-NHzFYZFXt31dGKCW686xtU3V8IU=
   dependencies:
     "@css-render/vue3-ssr" "^0.15.10"
     "@juggle/resize-observer" "^3.3.1"
