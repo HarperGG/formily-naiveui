@@ -50,11 +50,11 @@
     "@formily/reactive-vue": "^2.0.20",
     "@formily/shared": "^2.0.20",
     "@formily/vue": "^2.0.20",
+    "@vicons/fluent": "^0.12.0",
     "@vicons/ionicons4": "^0.12.0",
     "@vicons/ionicons5": "^0.12.0",
     "resize-observer-polyfill": "^1.5.1",
-    "vue-slicksort": "^1.2.0",
-    "vuedraggable": "^4.1.0"
+    "vue-slicksort": "^2.0.0-alpha.5"
   },
   "devDependencies": {
     "naive-ui": "^2.30.4",
