@@ -242,9 +242,7 @@ export const ArrayCollapseInner = observer(
                         h(
                           'span',
                           {
-                            style: {
-                              display: 'flex',
-                            },
+                            class: [`${prefixCls}-item-action`],
                           },
                           extra
                         ),
