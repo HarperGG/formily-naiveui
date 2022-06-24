@@ -8,12 +8,6 @@ import { PreviewText } from '../preview-text'
 
 export type CascaderProps = typeof NCascader
 
-// export const Cascader = connect(
-//   ElCascader,
-//   mapProps({ dataSource: 'options', value: 'modelValue' }),
-//   mapReadPretty(PreviewText.Cascader)
-// )
-
 export const Cascader = observer(
   defineComponent({
     name: 'FCascader',
