@@ -8,3 +8,9 @@ export type SlotTypes =
   | VNode
 
 export type Recordable<T = any> = Record<string, T>
+
+declare global {
+  interface Window {
+    $message?: import('naive-ui').MessageApi
+  }
+}

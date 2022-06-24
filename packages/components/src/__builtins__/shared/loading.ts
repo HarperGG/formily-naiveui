@@ -1,10 +1,9 @@
 import type { MessageReactive } from 'naive-ui'
-import { useMessage } from 'naive-ui'
 export const loading = async (
   loadingText = 'Loading...',
   processor: () => Promise<any>
 ) => {
-  const message = useMessage()
+  const message = window.$message
   let loadingInstance: MessageReactive = null
   let loading = setTimeout(() => {
     loadingInstance = message.loading(loadingText)
