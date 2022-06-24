@@ -1,5 +1,5 @@
 {
-  "name": "@formily/element-plus-setters",
+  "name": "@formily/naive-ui-setters",
   "version": "1.0.0-beta.2",
   "license": "MIT",
   "main": "lib",
@@ -8,9 +8,9 @@
     "npm": ">=3.0.0"
   },
   "module": "esm",
-  "umd:main": "dist/formily.element-plus-setters.umd.production.js",
-  "unpkg": "dist/formily.element-plus-setters.umd.production.js",
-  "jsdelivr": "dist/formily.element-plus-setters.umd.production.js",
+  "umd:main": "dist/formily.naive-ui-setters.umd.production.js",
+  "unpkg": "dist/formily.naive-ui-setters.umd.production.js",
+  "jsdelivr": "dist/formily.naive-ui-setters.umd.production.js",
   "jsnext:main": "esm",
   "sideEffects": [
     "dist/*",
@@ -26,12 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/formilyjs/element-plus.git"
+    "url": "git+https://github.com/formilyjs/naive-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/formilyjs/element-plus/issues"
+    "url": "https://github.com/formilyjs/naive-ui/issues"
   },
-  "homepage": "https://github.com/formilyjs/element-plus#readme",
+  "homepage": "https://github.com/formilyjs/naive-ui#readme",
   "publishConfig": {
     "access": "public"
   },

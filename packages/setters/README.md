@@ -1,9 +1,9 @@
-# @formily/element-plus-setters
+# @formily/naive-ui-setters
 
 > Formily Designable Component Adaptor
 
 ## Install
 
 ```bash
-npm install @formily/element-plus-setters --save
+npm install @formily/naive-ui-setters --save
 ```

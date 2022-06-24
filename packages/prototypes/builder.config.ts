@@ -1,7 +1,7 @@
 import { IBuilderConfig } from '@formily/template'
 
 export const BuilderConfig: IBuilderConfig = {
-  targetLibName: 'element-plus',
+  targetLibName: 'naive-ui',
   targetLibCjsDir: 'lib',
   targetLibEsDir: 'es',
 }

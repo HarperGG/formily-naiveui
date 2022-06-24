@@ -19,6 +19,6 @@
       "@formily/element-plus": ["packages/components/src"],
       "@formily/naive-ui": ["packages/components/src"]
     },
-    "types": ["vite/client"]
+    "types": ["vite/client", "naive-ui/volar"]
   }
 }

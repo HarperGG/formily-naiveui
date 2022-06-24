@@ -1,9 +1,9 @@
-# @formily/element-plus-setters
+# @formily/naive-ui-setters
 
 > Formily Designable 设置器
 
 ## 安装
 
 ```bash
-npm install @formily/element-plus-setters --save
+npm install @formily/naive-ui-setters --save
 ```

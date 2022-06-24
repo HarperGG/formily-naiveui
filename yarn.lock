@@ -539,20 +539,15 @@
   resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@css-render/vue3-ssr/-/vue3-ssr-0.15.10.tgz#0a5f58e8480b3e125f0667137b33217eee0b8f95"
   integrity sha1-Cl9Y6EgLPhJfBmcTezMhfu4Lj5U=
 
-"@ctrl/tinycolor@^3.4.0":
-  version "3.4.0"
-  resolved "https://registry.npmjs.org/@ctrl/tinycolor/-/tinycolor-3.4.0.tgz"
-  integrity sha512-JZButFdZ1+/xAfpguQHoabIXkcqRRKpMrWKBkpEZZyxfY9C1DpADFB8PEqGSTeFr135SaTRfKqGKx5xSCLI7ZQ==
-
 "@ctrl/tinycolor@^3.4.1":
   version "3.4.1"
-  resolved "https://registry.npmjs.org/@ctrl/tinycolor/-/tinycolor-3.4.1.tgz"
-  integrity sha512-ej5oVy6lykXsvieQtqZxCOaLT+xD4+QNarq78cIYISHmZXshCvROLudpQN3lfL8G0NL7plMSSK+zlyvCaIJ4Iw==
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@ctrl/tinycolor/-/tinycolor-3.4.1.tgz#75b4c27948c81e88ccd3a8902047bcd797f38d32"
+  integrity sha1-dbTCeUjIHojM06iQIEe815fzjTI=
 
-"@element-plus/icons-vue@^1.1.1", "@element-plus/icons-vue@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.npmjs.org/@element-plus/icons-vue/-/icons-vue-1.1.4.tgz"
-  integrity sha512-Iz/nHqdp1sFPmdzRwHkEQQA3lKvoObk8azgABZ81QUOpW9s/lUyQVUSh0tNtEPZXQlKwlSh7SPgoVxzrE0uuVQ==
+"@element-plus/icons-vue@^2.0.5":
+  version "2.0.6"
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@element-plus/icons-vue/-/icons-vue-2.0.6.tgz#8490e7a3193c17515d10c3be0544d800afe6a228"
+  integrity sha1-hJDnoxk8F1FdEMO+BUTYAK/moig=
 
 "@emotion/hash@~0.8.0":
   version "0.8.0"
@@ -584,29 +579,17 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@floating-ui/core@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.npmjs.org/@floating-ui/core/-/core-0.6.1.tgz"
-  integrity sha512-Y30eVMcZva8o84c0HcXAtDO4BEzPJMvF6+B7x7urL2xbAqVsGJhojOyHLaoQHQYjb6OkqRq5kO+zeySycQwKqg==
+"@floating-ui/core@^0.7.3":
+  version "0.7.3"
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@floating-ui/core/-/core-0.7.3.tgz#d274116678ffae87f6b60e90f88cc4083eefab86"
+  integrity sha1-0nQRZnj/rof2tg6Q+IzECD7vq4Y=
 
-"@floating-ui/core@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.npmjs.org/@floating-ui/core/-/core-0.6.2.tgz"
-  integrity sha512-jktYRmZwmau63adUG3GKOAVCofBXkk55S/zQ94XOorAHhwqFIOFAy1rSp2N0Wp6/tGbe9V3u/ExlGZypyY17rg==
-
-"@floating-ui/dom@^0.4.2":
-  version "0.4.4"
-  resolved "https://registry.npmjs.org/@floating-ui/dom/-/dom-0.4.4.tgz"
-  integrity sha512-0Ulu3B/dqQplUUSqnTx0foSrlYuMN+GTtlJWvNJwt6Fr7/PqmlR/Y08o6/+bxDWr6p3roBJRaQ51MDZsNmEhhw==
+"@floating-ui/dom@^0.5.3":
+  version "0.5.3"
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@floating-ui/dom/-/dom-0.5.3.tgz#ade192cf9a911fc3e95fb614fe281658b654043c"
+  integrity sha1-reGSz5qRH8PpX7YU/igWWLZUBDw=
   dependencies:
-    "@floating-ui/core" "^0.6.1"
-
-"@floating-ui/dom@^0.4.5":
-  version "0.4.5"
-  resolved "https://registry.npmjs.org/@floating-ui/dom/-/dom-0.4.5.tgz"
-  integrity sha512-b+prvQgJt8pieaKYMSJBXHxX/DYwdLsAWxKYqnO5dO2V4oo/TYBZJAUQCVNjTWWsrs6o4VDrNcP9+E70HAhJdw==
-  dependencies:
-    "@floating-ui/core" "^0.6.2"
+    "@floating-ui/core" "^0.7.3"
 
 "@formily/core@2.0.20", "@formily/core@^2.0.20":
   version "2.0.20"
@@ -1832,15 +1815,10 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
-"@popperjs/core@^2.11.4":
-  version "2.11.5"
-  resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.5.tgz"
-  integrity sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==
-
-"@popperjs/core@npm:@sxzz/popperjs-es@^2.11.6":
+"@popperjs/core@npm:@sxzz/popperjs-es@^2.11.7":
   version "2.11.7"
-  resolved "https://registry.npmjs.org/@sxzz/popperjs-es/-/popperjs-es-2.11.7.tgz"
-  integrity sha512-Ccy0NlLkzr0Ex2FKvh2X+OyERHXJ88XJ1MXtsI9y9fGexlaXaVTPzBCRBwIxFkORuOb+uBqeu+RqnpgYTEZRUQ==
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@sxzz/popperjs-es/-/popperjs-es-2.11.7.tgz#a7f69e3665d3da9b115f9e71671dae1b97e13671"
+  integrity sha1-p/aeNmXT2psRX55xZx2uG5fhNnE=
 
 "@rollup/plugin-commonjs@^17.0.0":
   version "17.1.0"
@@ -2288,6 +2266,11 @@
     "@typescript-eslint/types" "4.33.0"
     eslint-visitor-keys "^2.0.0"
 
+"@vicons/fluent@^0.12.0":
+  version "0.12.0"
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@vicons/fluent/-/fluent-0.12.0.tgz#7e9a39190114f7cb682a71dd166e7efec35e5e9c"
+  integrity sha1-fpo5GQEU98toKnHdFm5+/sNeXpw=
+
 "@vicons/ionicons4@^0.12.0":
   version "0.12.0"
   resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@vicons/ionicons4/-/ionicons4-0.12.0.tgz#20fc1c76b048638a49e76880c10846843b63dc1f"
@@ -2706,7 +2689,7 @@
     "@vueuse/shared" "5.3.0"
     vue-demi "*"
 
-"@vueuse/core@^8.2.1", "@vueuse/core@^8.2.3":
+"@vueuse/core@^8.2.1":
   version "8.2.5"
   resolved "https://registry.npmjs.org/@vueuse/core/-/core-8.2.5.tgz"
   integrity sha512-5prZAA1Ji2ltwNUnzreu6WIXYqHYP/9U2BiY5mD/650VYLpVcwVlYznJDFcLCmEWI3o3Vd34oS1FUf+6Mh68GQ==
@@ -2715,13 +2698,13 @@
     "@vueuse/shared" "8.2.5"
     vue-demi "*"
 
-"@vueuse/core@^8.2.6":
-  version "8.3.1"
-  resolved "https://registry.npmjs.org/@vueuse/core/-/core-8.3.1.tgz"
-  integrity sha512-WiXUgVyPG9elGx3G8UV8g+zqbEJ2hYacrPICogAxDdW6hnxxcUFdF7FtvDroJ/DxWmo2pg8XNNz07ybfnZyJbw==
+"@vueuse/core@^8.6.0":
+  version "8.7.4"
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@vueuse/core/-/core-8.7.4.tgz#39cec3e63faa8943be67121a176fbd84939c2b80"
+  integrity sha1-Oc7D5j+qiUO+ZxIaF2+9hJOcK4A=
   dependencies:
-    "@vueuse/metadata" "8.3.1"
-    "@vueuse/shared" "8.3.1"
+    "@vueuse/metadata" "8.7.4"
+    "@vueuse/shared" "8.7.4"
     vue-demi "*"
 
 "@vueuse/metadata@8.2.5":
@@ -2729,10 +2712,10 @@
   resolved "https://registry.npmjs.org/@vueuse/metadata/-/metadata-8.2.5.tgz"
   integrity sha512-Lk9plJjh9cIdiRdcj16dau+2LANxIdFCiTgdfzwYXbflxq0QnMBeOD2qHgKDE7fuVrtPcVWj8VSuZEx1HRfNQA==
 
-"@vueuse/metadata@8.3.1":
-  version "8.3.1"
-  resolved "https://registry.npmjs.org/@vueuse/metadata/-/metadata-8.3.1.tgz"
-  integrity sha512-1aZaFL44HzXXkfN6Q7KMDOXBFKTHDClHlOJBxtN8rTBXIIScoGOrJCpxWiQ4kuVg95MzG/pHrd3P4wd8poL9XQ==
+"@vueuse/metadata@8.7.4":
+  version "8.7.4"
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@vueuse/metadata/-/metadata-8.7.4.tgz#211a2a095504dd34c3d8881f4b1989e67662e9f5"
+  integrity sha1-IRoqCVUE3TTD2IgfSxmJ5nZi6fU=
 
 "@vueuse/shared@5.3.0":
   version "5.3.0"
@@ -2748,10 +2731,10 @@
   dependencies:
     vue-demi "*"
 
-"@vueuse/shared@8.3.1":
-  version "8.3.1"
-  resolved "https://registry.npmjs.org/@vueuse/shared/-/shared-8.3.1.tgz"
-  integrity sha512-7HKLCcxp4dtONq6QSSoavblo9riYgqzw7jhqiC0/VUYMXKzqj1G/GznOzTmY8Wi8uKKT197JqjKQ1DKt2j/0+A==
+"@vueuse/shared@8.7.4":
+  version "8.7.4"
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@vueuse/shared/-/shared-8.7.4.tgz#c9ddff6515c0898bb28d00a38dccc62d9be35887"
+  integrity sha1-yd3/ZRXAiYuyjQCjjczGLZvjWIc=
   dependencies:
     vue-demi "*"
 
@@ -3166,6 +3149,11 @@ async-validator@^4.0.7:
   version "4.0.7"
   resolved "https://registry.npmjs.org/async-validator/-/async-validator-4.0.7.tgz"
   integrity sha512-Pj2IR7u8hmUEDOwB++su6baaRi+QvsgajuFB9j95foM1N2gy5HM4z60hfusIO0fBPG5uLAEl6yCJr1jNSVugEQ==
+
+async-validator@^4.1.1:
+  version "4.2.5"
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/async-validator/-/async-validator-4.2.5.tgz#c96ea3332a521699d0afaaceed510a54656c6339"
+  integrity sha1-yW6jMypSFpnQr6rO7VEKVGVsYzk=
 
 async@^2.6.2:
   version "2.6.3"
@@ -4708,15 +4696,10 @@ dateformat@^3.0.0:
   resolved "https://registry.npmjs.org/dateformat/-/dateformat-3.0.3.tgz"
   integrity sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
 
-dayjs@^1.11.0:
-  version "1.11.0"
-  resolved "https://registry.npmjs.org/dayjs/-/dayjs-1.11.0.tgz"
-  integrity sha512-JLC809s6Y948/FuCZPm5IX8rRhQwOiyMb2TfVVQEixG7P8Lm/gt5S7yoQZmC8x1UehI9Pb7sksEt4xx14m+7Ug==
-
-dayjs@^1.11.1:
-  version "1.11.1"
-  resolved "https://registry.npmjs.org/dayjs/-/dayjs-1.11.1.tgz"
-  integrity sha512-ER7EjqVAMkRRsxNCC5YqJ9d9VQYuWdGt7aiH2qA5R5wt8ZmWaP2dLUSIK6y/kVzLMlmh1Tvu5xUf4M/wdGJ5KA==
+dayjs@^1.11.3:
+  version "1.11.3"
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/dayjs/-/dayjs-1.11.3.tgz#4754eb694a624057b9ad2224b67b15d552589258"
+  integrity sha1-R1TraUpiQFe5rSIktnsV1VJYklg=
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.9:
   version "2.6.9"
@@ -5135,39 +5118,20 @@ elegant-spinner@^1.0.1:
   resolved "https://registry.npmjs.org/elegant-spinner/-/elegant-spinner-1.0.1.tgz"
   integrity sha1-2wQ1IcldfjA/2PNFvtwzSc+wcp4=
 
-element-plus@^2.0.1:
-  version "2.1.8"
-  resolved "https://registry.npmjs.org/element-plus/-/element-plus-2.1.8.tgz"
-  integrity sha512-hwFtzw0R5lKMhWf3oVvSU/ucfN8RiY8DRaRWo6LktX4RlWWA2QjKfDXtISBi5Rb303Ny4I0Sgz0CA1Fd4Z2GGg==
-  dependencies:
-    "@ctrl/tinycolor" "^3.4.0"
-    "@element-plus/icons-vue" "^1.1.4"
-    "@floating-ui/dom" "^0.4.2"
-    "@popperjs/core" "^2.11.4"
-    "@vueuse/core" "^8.2.3"
-    async-validator "^4.0.7"
-    dayjs "^1.11.0"
-    escape-html "^1.0.3"
-    lodash "^4.17.21"
-    lodash-es "^4.17.21"
-    lodash-unified "^1.0.2"
-    memoize-one "^6.0.0"
-    normalize-wheel-es "^1.1.2"
-
-element-plus@^2.1.11:
-  version "2.1.11"
-  resolved "https://registry.npmjs.org/element-plus/-/element-plus-2.1.11.tgz"
-  integrity sha512-s4X0I8s787tv+9UdekBC1g7v42Fj4bucPAmu03EjbgrGrV7BJvkoBGuK52lNfu4yC76bl6Uyjesd5Fu8CMakSw==
+element-plus@^2.2.6:
+  version "2.2.6"
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/element-plus/-/element-plus-2.2.6.tgz#60b9e91a2159526123d1b950263de37947153433"
+  integrity sha1-YLnpGiFZUmEj0blQJj3jeUcVNDM=
   dependencies:
     "@ctrl/tinycolor" "^3.4.1"
-    "@element-plus/icons-vue" "^1.1.4"
-    "@floating-ui/dom" "^0.4.5"
-    "@popperjs/core" "npm:@sxzz/popperjs-es@^2.11.6"
+    "@element-plus/icons-vue" "^2.0.5"
+    "@floating-ui/dom" "^0.5.3"
+    "@popperjs/core" "npm:@sxzz/popperjs-es@^2.11.7"
     "@types/lodash" "^4.14.182"
     "@types/lodash-es" "^4.17.6"
-    "@vueuse/core" "^8.2.6"
-    async-validator "^4.0.7"
-    dayjs "^1.11.1"
+    "@vueuse/core" "^8.6.0"
+    async-validator "^4.1.1"
+    dayjs "^1.11.3"
     escape-html "^1.0.3"
     lodash "^4.17.21"
     lodash-es "^4.17.21"
@@ -8776,8 +8740,8 @@ lodash-es@^4.17.21:
 
 lodash-unified@^1.0.2:
   version "1.0.2"
-  resolved "https://registry.npmjs.org/lodash-unified/-/lodash-unified-1.0.2.tgz"
-  integrity sha512-OGbEy+1P+UT26CYi4opY4gebD8cWRDxAT6MAObIVQMiqYdxZr1g3QHWCToVsm31x2NkLS4K3+MC2qInaRMa39g==
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/lodash-unified/-/lodash-unified-1.0.2.tgz#bb2694db3533781e5cce984af60cfaea318b83c1"
+  integrity sha1-uyaU2zUzeB5czphK9gz66jGLg8E=
 
 lodash._baseclone@~4.5.0:
   version "4.5.7"
@@ -9145,8 +9109,8 @@ medium-zoom@^1.0.6:
 
 memoize-one@^6.0.0:
   version "6.0.0"
-  resolved "https://registry.npmjs.org/memoize-one/-/memoize-one-6.0.0.tgz"
-  integrity sha512-rkpe71W0N0c0Xz6QD0eJETuWAJGnJ9afsl1srmwPrI+yBCkge5EycXXbYRyvL29zZVUWQCY7InPRCv3GDXuZNw==
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/memoize-one/-/memoize-one-6.0.0.tgz#b2591b871ed82948aee4727dc6abceeeac8c1045"
+  integrity sha1-slkbhx7YKUiu5HJ9xqvO7qyMEEU=
 
 memory-fs@^0.4.1:
   version "0.4.1"
@@ -9760,8 +9724,8 @@ normalize-url@^6.0.1, normalize-url@^6.1.0:
 
 normalize-wheel-es@^1.1.2:
   version "1.1.2"
-  resolved "https://registry.npmjs.org/normalize-wheel-es/-/normalize-wheel-es-1.1.2.tgz"
-  integrity sha512-scX83plWJXYH1J4+BhAuIHadROzxX0UBF3+HuZNY2Ks8BciE7tSTQ+5JhTsvzjaO0/EJdm4JBGrfObKxFf3Png==
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/normalize-wheel-es/-/normalize-wheel-es-1.1.2.tgz#285e43676a62d687bf145e33452ea6be435162d0"
+  integrity sha1-KF5DZ2pi1oe/FF4zRS6mvkNRYtA=
 
 npm-bundled@^1.1.1:
   version "1.1.2"
@@ -12266,11 +12230,6 @@ sort-keys@^4.0.0:
   dependencies:
     is-plain-obj "^2.0.0"
 
-sortablejs@1.14.0:
-  version "1.14.0"
-  resolved "https://registry.npmjs.org/sortablejs/-/sortablejs-1.14.0.tgz"
-  integrity sha512-pBXvQCs5/33fdN1/39pPL0NZF20LeRbLQ5jtnheIPN9JQAaufGjKdWduZn4U7wCtVuzKhmRkI0DFYHYRbB2H1w==
-
 "source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.1, source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
@@ -13597,6 +13556,11 @@ vue-slicksort@^1.2.0:
   resolved "https://registry.npmjs.org/vue-slicksort/-/vue-slicksort-1.2.0.tgz"
   integrity sha512-k1324l+AnYy6MrpySN7PYL165z2EkvZmMe+BS7H/EugzS8IrZYRtoqa3QxSSWB34C7cplV1hj3c+7peKpxpYxg==
 
+vue-slicksort@^2.0.0-alpha.5:
+  version "2.0.0-alpha.5"
+  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/vue-slicksort/-/vue-slicksort-2.0.0-alpha.5.tgz#b1c09ed1882105001b1ea5f7fea0e81efadf3c70"
+  integrity sha1-scCe0YghBQAbHqX3/qDoHvrfPHA=
+
 vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
@@ -13612,13 +13576,6 @@ vue@^3.2.24, vue@^3.2.31:
     "@vue/runtime-dom" "3.2.31"
     "@vue/server-renderer" "3.2.31"
     "@vue/shared" "3.2.31"
-
-vuedraggable@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/vuedraggable/-/vuedraggable-4.1.0.tgz"
-  integrity sha512-FU5HCWBmsf20GpP3eudURW3WdWTKIbEIQxh9/8GE806hydR9qZqRRxRE3RjqX7PkuLuMQG/A7n3cfj9rCEchww==
-  dependencies:
-    sortablejs "1.14.0"
 
 vuepress-plugin-typescript@^0.3.1:
   version "0.3.1"

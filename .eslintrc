@@ -13,13 +13,14 @@
     "prettyFormat": true
   },
   "parserOptions": {
+    "parser": "@typescript-eslint/parser",
     "ecmaVersion": 10,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
     }
   },
-  "parser": "@typescript-eslint/parser",
+  "parser": "vue-eslint-parser",
   "plugins": ["@typescript-eslint", "prettier", "markdown"],
   "rules": {
     "@typescript-eslint/explicit-module-boundary-types": "off",
