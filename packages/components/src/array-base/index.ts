@@ -9,6 +9,8 @@ import {
   onBeforeUnmount,
   PropType,
   h,
+  withDirectives,
+  resolveDirective,
 } from 'vue'
 import { FragmentComponent, useField, useFieldSchema } from '@formily/vue'
 import { isValid, uid, clone } from '@formily/shared'
@@ -23,6 +25,7 @@ import {
   ChevronDown as ArrowDown,
   MoveSharp as ArrowMove,
 } from '@vicons/ionicons5'
+import { HandleDirective } from 'vue-slicksort'
 import { stylePrefix } from '../__builtins__/configs'
 import { composeExport } from '../__builtins__/shared'
 
@@ -182,22 +185,30 @@ const ArrayBaseItem = defineComponent({
 
 const ArrayBaseSortHandle = defineComponent({
   name: 'ArrayBaseSortHandle',
+  directives: {
+    handle: HandleDirective,
+  },
   props: ['index'],
   setup(_, { attrs }) {
     const array = useArray()
     const prefixCls = `${stylePrefix}-array-base`
+    const handleDirs = resolveDirective('handle')
 
     return () => {
       if (!array) return null
       if (array.field.value?.pattern !== 'editable') return null
 
-      return h(
-        NIcon,
-        {
-          ...attrs,
-          class: [`${prefixCls}-sort-handle`].concat(attrs.class as any),
-        },
-        { default: () => [h(ArrowMove)] }
+      return withDirectives(
+        h(
+          NIcon,
+          {
+            directives: [{ name: 'handle' }],
+            ...attrs,
+            class: [`${prefixCls}-sort-handle`].concat(attrs.class as any),
+          },
+          { default: () => [h(ArrowMove)] }
+        ),
+        [[handleDirs]]
       )
     }
   },
