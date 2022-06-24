@@ -1,8 +1,8 @@
-# Element-Plus
+# Naive-Ui
 
 ## 介绍
 
-@formily/element-plus 是基于 element-plus 封装的针对表单场景专业级(Professional)组件库，它主要有以下几个特点：
+@formily/Naive-Ui 是基于 Naive-Ui 封装的针对表单场景专业级(Professional)组件库，它主要有以下几个特点：
 
 - 更丰富的组件体系
 
@@ -69,15 +69,15 @@
 ## 安装
 
 ```bash
-$ npm install --save element-plus
-$ npm install --save @formily/core @formily/vue @vue/composition-api @formily/element-plus
+$ npm install --save Naive-Ui
+$ npm install --save @formily/core @formily/vue @vue/composition-api @formily/Naive-Ui
 ```
 
 ## 按需打包
 
-`Element-UI` 按需引入参见 [https://element.eleme.io/#/zh-CN/component/quickstart#an-xu-yin-ru](https://element.eleme.io/#/zh-CN/component/quickstart#an-xu-yin-ru)
+`Naive-UI` 按需引入参见 [https://www.naiveui.com/zh-CN/os-theme/docs/import-on-demand](https://www.naiveui.com/zh-CN/os-theme/docs/import-on-demand)
 
-`@formily/element-plus`按需引入需借助 `babel-plugin-import`
+`@formily/Naive-Ui`按需引入需借助 `babel-plugin-import`
 
 #### 安装 `babel-plugin-import`
 
@@ -99,14 +99,14 @@ yarn add babel-plugin-import --dev
     [
       "component",
       {
-        "libraryName": "element-plus",
+        "libraryName": "Naive-Ui",
         "styleLibraryName": "theme-chalk"
       }
     ],
     [
       "import",
       {
-        "libraryName": "@formily/element-plus",
+        "libraryName": "@formily/Naive-Ui",
         "libraryDirectory": "esm",
         "style": true
       }

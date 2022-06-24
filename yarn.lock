@@ -539,16 +539,6 @@
   resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@css-render/vue3-ssr/-/vue3-ssr-0.15.10.tgz#0a5f58e8480b3e125f0667137b33217eee0b8f95"
   integrity sha1-Cl9Y6EgLPhJfBmcTezMhfu4Lj5U=
 
-"@ctrl/tinycolor@^3.4.1":
-  version "3.4.1"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@ctrl/tinycolor/-/tinycolor-3.4.1.tgz#75b4c27948c81e88ccd3a8902047bcd797f38d32"
-  integrity sha1-dbTCeUjIHojM06iQIEe815fzjTI=
-
-"@element-plus/icons-vue@^2.0.5":
-  version "2.0.6"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@element-plus/icons-vue/-/icons-vue-2.0.6.tgz#8490e7a3193c17515d10c3be0544d800afe6a228"
-  integrity sha1-hJDnoxk8F1FdEMO+BUTYAK/moig=
-
 "@emotion/hash@~0.8.0":
   version "0.8.0"
   resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
@@ -578,18 +568,6 @@
     js-yaml "^3.13.1"
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
-
-"@floating-ui/core@^0.7.3":
-  version "0.7.3"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@floating-ui/core/-/core-0.7.3.tgz#d274116678ffae87f6b60e90f88cc4083eefab86"
-  integrity sha1-0nQRZnj/rof2tg6Q+IzECD7vq4Y=
-
-"@floating-ui/dom@^0.5.3":
-  version "0.5.3"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@floating-ui/dom/-/dom-0.5.3.tgz#ade192cf9a911fc3e95fb614fe281658b654043c"
-  integrity sha1-reGSz5qRH8PpX7YU/igWWLZUBDw=
-  dependencies:
-    "@floating-ui/core" "^0.7.3"
 
 "@formily/core@2.0.20", "@formily/core@^2.0.20":
   version "2.0.20"
@@ -1815,11 +1793,6 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
-"@popperjs/core@npm:@sxzz/popperjs-es@^2.11.7":
-  version "2.11.7"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@sxzz/popperjs-es/-/popperjs-es-2.11.7.tgz#a7f69e3665d3da9b115f9e71671dae1b97e13671"
-  integrity sha1-p/aeNmXT2psRX55xZx2uG5fhNnE=
-
 "@rollup/plugin-commonjs@^17.0.0":
   version "17.1.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-commonjs/-/plugin-commonjs-17.1.0.tgz#757ec88737dffa8aa913eb392fade2e45aef2a2d"
@@ -2081,7 +2054,7 @@
   dependencies:
     "@types/lodash" "*"
 
-"@types/lodash@*", "@types/lodash@^4.14.181", "@types/lodash@^4.14.182":
+"@types/lodash@*", "@types/lodash@^4.14.181":
   version "4.14.182"
   resolved "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.182.tgz"
   integrity sha512-/THyiqyQAP9AfARo4pF+aCGcyiQ94tX/Is2I7HofNRqoYLgN1PBoOWu2/zTA5zMxzP5EFutMtWtGAFRKUe961Q==
@@ -2698,24 +2671,10 @@
     "@vueuse/shared" "8.2.5"
     vue-demi "*"
 
-"@vueuse/core@^8.6.0":
-  version "8.7.4"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@vueuse/core/-/core-8.7.4.tgz#39cec3e63faa8943be67121a176fbd84939c2b80"
-  integrity sha1-Oc7D5j+qiUO+ZxIaF2+9hJOcK4A=
-  dependencies:
-    "@vueuse/metadata" "8.7.4"
-    "@vueuse/shared" "8.7.4"
-    vue-demi "*"
-
 "@vueuse/metadata@8.2.5":
   version "8.2.5"
   resolved "https://registry.npmjs.org/@vueuse/metadata/-/metadata-8.2.5.tgz"
   integrity sha512-Lk9plJjh9cIdiRdcj16dau+2LANxIdFCiTgdfzwYXbflxq0QnMBeOD2qHgKDE7fuVrtPcVWj8VSuZEx1HRfNQA==
-
-"@vueuse/metadata@8.7.4":
-  version "8.7.4"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@vueuse/metadata/-/metadata-8.7.4.tgz#211a2a095504dd34c3d8881f4b1989e67662e9f5"
-  integrity sha1-IRoqCVUE3TTD2IgfSxmJ5nZi6fU=
 
 "@vueuse/shared@5.3.0":
   version "5.3.0"
@@ -2728,13 +2687,6 @@
   version "8.2.5"
   resolved "https://registry.npmjs.org/@vueuse/shared/-/shared-8.2.5.tgz"
   integrity sha512-lNWo+7sk6JCuOj4AiYM+6HZ6fq4xAuVq1sVckMQKgfCJZpZRe4i8es+ZULO5bYTKP+VrOCtqrLR2GzEfrbr3YQ==
-  dependencies:
-    vue-demi "*"
-
-"@vueuse/shared@8.7.4":
-  version "8.7.4"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/@vueuse/shared/-/shared-8.7.4.tgz#c9ddff6515c0898bb28d00a38dccc62d9be35887"
-  integrity sha1-yd3/ZRXAiYuyjQCjjczGLZvjWIc=
   dependencies:
     vue-demi "*"
 
@@ -3149,11 +3101,6 @@ async-validator@^4.0.7:
   version "4.0.7"
   resolved "https://registry.npmjs.org/async-validator/-/async-validator-4.0.7.tgz"
   integrity sha512-Pj2IR7u8hmUEDOwB++su6baaRi+QvsgajuFB9j95foM1N2gy5HM4z60hfusIO0fBPG5uLAEl6yCJr1jNSVugEQ==
-
-async-validator@^4.1.1:
-  version "4.2.5"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/async-validator/-/async-validator-4.2.5.tgz#c96ea3332a521699d0afaaceed510a54656c6339"
-  integrity sha1-yW6jMypSFpnQr6rO7VEKVGVsYzk=
 
 async@^2.6.2:
   version "2.6.3"
@@ -4696,11 +4643,6 @@ dateformat@^3.0.0:
   resolved "https://registry.npmjs.org/dateformat/-/dateformat-3.0.3.tgz"
   integrity sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
 
-dayjs@^1.11.3:
-  version "1.11.3"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/dayjs/-/dayjs-1.11.3.tgz#4754eb694a624057b9ad2224b67b15d552589258"
-  integrity sha1-R1TraUpiQFe5rSIktnsV1VJYklg=
-
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz"
@@ -5118,27 +5060,6 @@ elegant-spinner@^1.0.1:
   resolved "https://registry.npmjs.org/elegant-spinner/-/elegant-spinner-1.0.1.tgz"
   integrity sha1-2wQ1IcldfjA/2PNFvtwzSc+wcp4=
 
-element-plus@^2.2.6:
-  version "2.2.6"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/element-plus/-/element-plus-2.2.6.tgz#60b9e91a2159526123d1b950263de37947153433"
-  integrity sha1-YLnpGiFZUmEj0blQJj3jeUcVNDM=
-  dependencies:
-    "@ctrl/tinycolor" "^3.4.1"
-    "@element-plus/icons-vue" "^2.0.5"
-    "@floating-ui/dom" "^0.5.3"
-    "@popperjs/core" "npm:@sxzz/popperjs-es@^2.11.7"
-    "@types/lodash" "^4.14.182"
-    "@types/lodash-es" "^4.17.6"
-    "@vueuse/core" "^8.6.0"
-    async-validator "^4.1.1"
-    dayjs "^1.11.3"
-    escape-html "^1.0.3"
-    lodash "^4.17.21"
-    lodash-es "^4.17.21"
-    lodash-unified "^1.0.2"
-    memoize-one "^6.0.0"
-    normalize-wheel-es "^1.1.2"
-
 emittery@^0.8.1:
   version "0.8.1"
   resolved "https://registry.npmjs.org/emittery/-/emittery-0.8.1.tgz"
@@ -5426,7 +5347,7 @@ escalade@^3.1.1:
   resolved "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz"
   integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
 
-escape-html@^1.0.3, escape-html@~1.0.3:
+escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz"
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
@@ -8738,11 +8659,6 @@ lodash-es@^4.17.21:
   resolved "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz"
   integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
 
-lodash-unified@^1.0.2:
-  version "1.0.2"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/lodash-unified/-/lodash-unified-1.0.2.tgz#bb2694db3533781e5cce984af60cfaea318b83c1"
-  integrity sha1-uyaU2zUzeB5czphK9gz66jGLg8E=
-
 lodash._baseclone@~4.5.0:
   version "4.5.7"
   resolved "https://registry.npmjs.org/lodash._baseclone/-/lodash._baseclone-4.5.7.tgz"
@@ -9106,11 +9022,6 @@ medium-zoom@^1.0.6:
   version "1.0.6"
   resolved "https://registry.npmjs.org/medium-zoom/-/medium-zoom-1.0.6.tgz"
   integrity sha512-UdiUWfvz9fZMg1pzf4dcuqA0W079o0mpqbTnOz5ip4VGYX96QjmbM+OgOU/0uOzAytxC0Ny4z+VcYQnhdifimg==
-
-memoize-one@^6.0.0:
-  version "6.0.0"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/memoize-one/-/memoize-one-6.0.0.tgz#b2591b871ed82948aee4727dc6abceeeac8c1045"
-  integrity sha1-slkbhx7YKUiu5HJ9xqvO7qyMEEU=
 
 memory-fs@^0.4.1:
   version "0.4.1"
@@ -9721,11 +9632,6 @@ normalize-url@^6.0.1, normalize-url@^6.1.0:
   version "6.1.0"
   resolved "https://registry.npmjs.org/normalize-url/-/normalize-url-6.1.0.tgz"
   integrity sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==
-
-normalize-wheel-es@^1.1.2:
-  version "1.1.2"
-  resolved "https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/normalize-wheel-es/-/normalize-wheel-es-1.1.2.tgz#285e43676a62d687bf145e33452ea6be435162d0"
-  integrity sha1-KF5DZ2pi1oe/FF4zRS6mvkNRYtA=
 
 npm-bundled@^1.1.1:
   version "1.1.2"

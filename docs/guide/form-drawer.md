@@ -47,7 +47,7 @@ interface FormDrawer {
 }
 ```
 
-`DrawerProps`类型定义参考 [Element-Plus Drawer API](https://www.naiveui.com/zh-CN/os-theme/components/drawer#drawer-属性)
+`DrawerProps`类型定义参考 [Naive-Ui Drawer API](https://www.naiveui.com/zh-CN/os-theme/components/drawer#drawer-属性)
 
 ### FormDrawer.Footer
 

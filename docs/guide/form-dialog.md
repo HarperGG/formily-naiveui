@@ -58,7 +58,7 @@ interface FormDialog {
 }
 ```
 
-`DialogProps`类型定义参考 [Element-Plus Dialog API](https://www.naiveui.com/zh-CN/os-theme/components/dialog#dialog-属性)
+`DialogProps`类型定义参考 [Naive-Ui Dialog API](https://www.naiveui.com/zh-CN/os-theme/components/dialog#dialog-属性)
 
 ### FormDialog.Footer
 
