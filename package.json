@@ -1,5 +1,6 @@
 {
-  "name": "root",
+  "name": "formily-naiveui",
+  "version": "0.0.1",
   "private": true,
   "devEngines": {
     "node": "8.x || 9.x || 10.x || 11.x"

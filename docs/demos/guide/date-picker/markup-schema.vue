@@ -34,16 +34,15 @@
           type: 'datetime',
         }"
       />
-      <!-- <SchemaArrayField
+      <SchemaArrayField
         name="dateRange"
         title="日期范围"
         x-decorator="FormItem"
         x-component="DatePicker"
         :x-component-props="{
           type: 'daterange',
-          valueType: 'array',
         }"
-      /> -->
+      />
       <!-- <SchemaArrayField
         name="monthRange"
         title="月范围"
@@ -63,7 +62,7 @@
         }"
       /> -->
     </SchemaField>
-    <Submit @submit="onSubmit">提交</Submit>
+    <Submit @submit="onSubmit"> 提交 </Submit>
   </Form>
 </template>
 
