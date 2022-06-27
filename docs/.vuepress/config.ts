@@ -13,8 +13,6 @@ export default defineUserConfig<DefaultThemeOptions>({
   // 站点配置
   title: 'NaiveUI',
   description: 'Alibaba unified front-end form solution',
-  dest: './doc-site',
-  base:'/formily-naiveui/doc-site/',
   head: [
     [
       'link',
