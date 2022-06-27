@@ -23,7 +23,7 @@ package.zip
 .umi
 .umi-production
 .cjsescache
-doc-site
+# doc-site
 .lerna-changelog
 .history
 .lint-report.log
