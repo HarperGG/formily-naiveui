@@ -79,6 +79,9 @@ export default defineUserConfig<DefaultThemeOptions>({
   bundlerConfig: {
     viteOptions: {
       plugins: [vueJsx({})],
+      ssr: {
+        noExternal: ['naive-ui'],
+      },
     },
   },
 })

@@ -1,5 +1,5 @@
 {
-  "name": "@formily/element-plus",
+  "name": "@formily/naive-ui",
   "version": "1.0.0-beta.2",
   "license": "MIT",
   "main": "lib",
@@ -53,11 +53,9 @@
     "@vicons/fluent": "^0.12.0",
     "@vicons/ionicons4": "^0.12.0",
     "@vicons/ionicons5": "^0.12.0",
-    "resize-observer-polyfill": "^1.5.1",
-    "vue-slicksort": "^2.0.0-alpha.5"
-  },
-  "devDependencies": {
     "naive-ui": "^2.30.4",
-    "vfonts": "^0.0.3"
+    "resize-observer-polyfill": "^1.5.1",
+    "vfonts": "^0.0.3",
+    "vue-slicksort": "^2.0.0-alpha.5"
   }
 }
