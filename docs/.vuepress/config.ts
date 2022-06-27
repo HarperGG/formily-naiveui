@@ -12,6 +12,7 @@ const componentFiles = utils
 export default defineUserConfig<DefaultThemeOptions>({
   // 站点配置
   title: 'NaiveUI',
+  base: process.env.NODE_ENV === 'development' ? '/' : '/formily-naiveui/',
   description: 'Alibaba unified front-end form solution',
   head: [
     [
