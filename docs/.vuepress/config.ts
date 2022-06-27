@@ -21,13 +21,6 @@ export default defineUserConfig<DefaultThemeOptions>({
         href: '//img.alicdn.com/imgextra/i3/O1CN01XtT3Tv1Wd1b5hNVKy_!!6000000002810-55-tps-360-360.svg',
       },
     ],
-    [
-      'link',
-      {
-        rel: 'stylesheet',
-        href: 'https://unpkg.com/naive-ui/dist/index.css',
-      },
-    ],
   ],
   theme: 'vuepress-theme-dumi',
   themeConfig: {
