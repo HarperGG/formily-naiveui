@@ -1,0 +1,1 @@
+const e={key:"v-7e4cd658",path:"/guide/form-button-group.html",title:"FormButtonGroup",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u4F7F\u7528\u6848\u4F8B",slug:"\u4F7F\u7528\u6848\u4F8B",children:[]},{level:2,title:"API",slug:"api",children:[]}],filePathRelative:"guide/form-button-group.md"};export{e as data};
